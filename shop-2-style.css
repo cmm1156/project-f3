@@ -1,0 +1,82 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+
+}
+
+body {
+
+}
+
+
+.flexContainer {
+  margin-top: 10vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainContainer {
+  /* display: grid; */
+  /* grid-auto-rows: 1fr; */
+
+}
+
+.newItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: solid 3px black;
+  width: 70vw;
+  object-position: center;
+  margin-bottom: 10vmin;
+  padding: 30px;
+}
+
+
+.newImage {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 40vw;
+}
+.newImage img {
+}
+
+.textDiv {
+  padding-top: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+
+  text-align: center;
+}
+
+.newName {
+  font-size: 1.75rem;
+}
+
+
+.newDescrip {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+
+.newPrice {
+  /* margin-top: 15px; */
+  display: inline;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  background-color: #6fc067;
+  padding: 5px 10px 5px;
+  transition: .5s;
+
+}
+.newPrice:hover {
+  font-size: 1.65rem;
+}

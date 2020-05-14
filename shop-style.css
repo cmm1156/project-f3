@@ -1,0 +1,75 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+
+}
+
+body {
+  background-color: #666699;
+}
+
+
+.childSafe {
+  display: grid;
+  grid-template-rows: 1fr 1fr 200px;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+
+  text-align: center;
+  color: white;
+  margin-top: 30vh;
+  align-content: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.5rem;
+}
+
+.safePara {
+  grid-row: 1;
+}
+
+.buttonDiv {
+  grid-row: 2;
+}
+
+#inputId {
+  padding: 10px;
+  font-size: 1.25rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  border:none;
+}
+
+#buttonId {
+  background-color: #6fc067;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 1.25rem;
+  font-family: 'Roboto', sans-serif;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: .5s;
+}
+#buttonId:hover {
+  background-color: #78d16f;
+}
+
+.extraDiv {
+  grid-row: 3;
+}
+.extraDiv a {
+  color: white;
+}
+
+.extraDiv a:hover {
+  color: red;
+}
+
+#newLink {
+  font-size: 2rem;
+}

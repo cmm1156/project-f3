@@ -1,0 +1,50 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+
+}
+
+body {
+  background-color: #666699;
+}
+
+
+.newsSource {
+  margin-top: 5vmin;
+  margin-bottom: 5vmin;
+
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.newsSource h2 {
+  margin-left: 3vmin;
+  margin-bottom: 1vmin;
+}
+
+.movie-frame iframe {
+  /* position: absolute; */
+  width: 80vw;
+  height: 40vmin;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.ign-frame iframe {
+  /* position: absolute; */
+  width: 80vw;
+  height: 40vmin;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.politic-frame iframe {
+  /* position: absolute; */
+  width: 80vw;
+  height: 40vmin;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}

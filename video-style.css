@@ -1,0 +1,234 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  /* overflow: hidden; */
+}
+
+body {
+  background-color: #666699;
+  /* background-color: white; */
+}
+
+
+.videoDiv {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 90vh;
+  /* display: flex;
+  flex-direction: row; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+iframe {
+  width: 70vmin;
+}
+
+#frame-1 {
+  margin-top: 50vh;
+}
+#frame-2 {
+  margin-top: 40vh;
+}
+#frame-3 {
+  margin-top: 80vh;
+}
+#frame-4 {
+  margin-top: 70vh;
+}
+#frame-5 {
+  margin-top: 20vh;
+}
+
+
+.centeringDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 100vh;
+}
+
+.colorButtons {
+  display: grid;
+  grid-template: 1fr / repeat(3, 120px);
+  grid-column-gap: 15px;
+}
+
+.red, .blue, .green {
+  box-shadow: 0px 0px 10px #6fc067;
+  margin-left: 15px;
+}
+
+.red {
+  background-color: red;
+  grid-column: 1;
+  width: 100px;
+  height: 100px;
+}
+.blue {
+  background-color: blue;
+  grid-column: 2;
+  width: 100px;
+  height: 100px;
+}
+.green {
+  background-color: green;
+  grid-column: 3;
+  width: 100px;
+  height: 100px;
+}
+
+
+.monaLisa {
+  text-align: center;
+  margin-bottom: 500vh;
+}
+.monaLisa img {
+width: 70%
+}
+
+.para {
+  text-align: center;
+  color:white;
+}
+
+
+.passwordDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.newDiv {
+  color: white;
+  width: 40vw;
+  text-align: center;
+}
+.newDiv a {
+  color: white;
+  text-decoration: none;
+}
+.newDiv a:hover {
+  color: #6fc067;
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  /* overflow: hidden; */
+}
+
+body {
+  background-color: #666699;
+}
+
+
+.videoDiv {
+  display: block;
+  margin-top: 150vh;
+  margin-bottom: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+iframe {
+  width: 30vmin;
+}
+
+#frame-1 {
+  margin-top: 50vh;
+}
+#frame-2 {
+  margin-top: 40vh;
+}
+#frame-3 {
+  margin-top: 80vh;
+}
+#frame-4 {
+  margin-top: 70vh;
+}
+#frame-5 {
+  margin-top: 20vh;
+}
+
+
+.centeringDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 100vh;
+}
+
+.colorButtons {
+  display: grid;
+  grid-template: 1fr / repeat(3, 120px);
+  grid-column-gap: 15px;
+}
+
+.red, .blue, .green {
+  box-shadow: 0px 0px 10px #6fc067;
+  margin-left: 15px;
+}
+
+.red {
+  background-color: red;
+  grid-column: 1;
+  width: 100px;
+  height: 100px;
+}
+.blue {
+  background-color: blue;
+  grid-column: 2;
+  width: 100px;
+  height: 100px;
+}
+.green {
+  background-color: green;
+  grid-column: 3;
+  width: 100px;
+  height: 100px;
+}
+
+
+.monaLisa {
+  text-align: center;
+  margin-bottom: 500vh;
+}
+.monaLisa img {
+width: 40%
+}
+
+.para {
+  text-align: center;
+  color:white;
+}
+
+.newDiv {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 40vmax;
+  margin-right: 40vmax
+}
+.newDiv a {
+  color: white;
+  text-decoration: none;
+}
+.newDiv a:hover {
+  color: #6fc067;
+}
+
+}
